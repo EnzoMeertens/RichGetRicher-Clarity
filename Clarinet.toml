@@ -1,12 +1,8 @@
 
 [project]
-name = "my-project"
+name = "richgetricher"
 
 [contracts]
-
-[contracts.counter]
-path = "contracts/counter.clar"
-depends_on = []
 
 [contracts.richgetricher]
 path = "contracts/richgetricher.clar"
