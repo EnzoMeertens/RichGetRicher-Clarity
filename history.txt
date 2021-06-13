@@ -1,0 +1,20 @@
+#V2
+(contract-call? .richgetricher create-lobby "MyLobby" u5)
+(contract-call? .richgetricher create-game "MyGame1" u10 u180)\n(contract-call? .richgetricher get-game u1)
+(contract-call? .richgetricher participate u1 u500 "Hello World!")
+::set_tx_sender ST1J4G6RR643BCG8G8SR6M2D9Z9KXT2NJDRK3FBTK
+(contract-call? .richgetricher participate u1 u501 "Leader, lolz")
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher participate u1 u501 "Leader, lolz")
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher get-game u1)
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher get-game u2)
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher get-lobby)
+::help
+::get_block_height
+::advance_chain_tip 100
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher get-game u1)
+::advance_chain_tip 100
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher get-game u1)
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher participate u1 u501 "Leader, lolz")
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher get-game u1)
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher participate u1 u501 "Leader, lolz")
+(contract-call? 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.richgetricher get-game u1)

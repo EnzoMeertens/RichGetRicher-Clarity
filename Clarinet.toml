@@ -1,0 +1,15 @@
+
+[project]
+name = "my-project"
+
+[contracts]
+
+[contracts.counter]
+path = "contracts/counter.clar"
+depends_on = []
+
+[contracts.richgetricher]
+path = "contracts/richgetricher.clar"
+depends_on = []
+
+[notebooks]
